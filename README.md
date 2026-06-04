@@ -97,3 +97,8 @@ WIF3009/
 3. **Image Agent** — extracts visual features from an uploaded image using MobileNetV2, or falls back to a global mean vector when no image is provided.
 4. **Feature Fusion** — concatenates text, image, and metadata features.
 5. **Hype Engine** — an XGBoost model predicts the log-transformed resale price (USD). The result is exponentiated back and returned with a confidence range.
+
+
+## Demo
+
+![App Demo](assets/demo.gif)
